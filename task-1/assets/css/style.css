@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: azure;
+}
+
+.box{
+    width: 420px;
+    height: 530px;
+    background-color: rgb(96, 85, 85);
+    border-radius: 18px;
+    margin-top: 150px;
+       
+
+}
+
+.items{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+
+.box h1{
+    
+    color: magenta;
+    text-align: center;
+ 
+   
+
+}
+
+.box p{
+    text-align: center;
+   
+     
+    color: rgb(151, 149, 147);
+    font-size: 20px;
+
+}
+
+.box .box-1{
+    height: 120px;
+   
+    margin-top: 170px;
+    
+}
+    
+
+.box .line{
+    width: 3px;
+    height: 21px;
+    background-color: white;
+   
+  
+
+}
+
+.box-1 li{
+    color: white;
+}
+
+
+.box ul{
+   
+    list-style: none;
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+    margin-top: 10px;
+    font-size: 20px;
+    
+       
+}
+
+.box .icons{
+    height: 140px;
+    
+
+
+}
+
+.box .icons i{
+    font-size: 40px;
+    margin-left: 45px;
+    margin-top: 46px;
+    color: white;
+    
+    
+}
+
+.box .followers{
+    height: 100px;
+    background-color: rgb(255, 50, 159);
+    border-radius: 18px;
+    margin-bottom: 10px;
+}
+
+.box .followers p{
+    padding-top: 40px ;
+    font-size: 25px;
+    color: white;
+}
+
+.icons .icon{
+    width: 50px;
+    height: 50px;
+    
+    border-radius: 40px;
+    background-color: deeppink;
+    
+}
+
+
+.items .image{
+   
+    
+}
+
+.items .border img{
+    width: 130px;
+    height: 130px;
+    position: relative;
+    left: 270px;
+    bottom: 180px;
+    z-index: 1;
+    border-radius: 55px;  
+
+}
+
+ .items .border{ }
+    border: 10px;
+    color: blue;
